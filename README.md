@@ -12,7 +12,7 @@ Follow these steps to set up the project locally:
 
 ## Running the Application
 To start the application locally, use the following command:
-\`\`\`bash
+```bash
 npm start
-\`\`\`
+```
 This command runs the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
