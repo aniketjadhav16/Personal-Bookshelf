@@ -1,0 +1,87 @@
+.bookshelfPage {
+    position: relative;;
+}
+
+.title {
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.bookshelfContainer{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    position: relative;
+    margin-top: 125px;
+}
+
+.book {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    height: 220px;
+    width: 170px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: #fff;
+    margin: 0 10px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5)
+}
+
+.book:hover {
+    scale: 1.03;
+}
+
+.bookName, .bookAuthor {
+    margin: 10px 0 0 0;
+    font-size: 17px;
+}
+
+.name, .author {
+    margin: 0 0 10px 0;
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+
+.removeButton {
+    margin-top: 2.5px;
+    padding: 8px 10px;
+    font-size: 14px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.removeButton:hover {
+    scale: 1.03;
+    cursor: pointer;
+}
+
+.pTagBookshelf {
+    margin-top: 250px;
+    justify-content: center;
+    text-align: center;
+}
+
+.backToSearch{
+    padding: 8px 12px;
+    background-color:black;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    cursor: pointer;
+    position: absolute;
+    margin-left: 80%;
+}
+
+.backToSearch:hover {
+    scale: 1.03;
+    cursor: pointer;
+}
