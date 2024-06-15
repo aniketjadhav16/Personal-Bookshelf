@@ -5,10 +5,15 @@ Ensure you have met the following requirements:
 ## Installation
 Follow these steps to set up the project locally:
 
-1. **Install dependencies:**
-   \`\`\`bash
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/aniketjadhav16/Personal-Bookshelf
+   cd personal-bookshelf
+
+2. **Install dependencies:**
+   ```bash
    npm install
-   \`\`\`
+   ```
 
 ## Running the Application
 To start the application locally, use the following command:
