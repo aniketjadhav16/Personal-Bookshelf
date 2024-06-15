@@ -5,7 +5,7 @@ Ensure you have met the following requirements:
 ## Installation
 Follow these steps to set up the project locally:
 
-**Install dependencies:**
+1. **Install dependencies:**
    \`\`\`bash
    npm install
    \`\`\`
